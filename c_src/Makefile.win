@@ -16,7 +16,9 @@ NIF_SRC=\
   nif\crc_model.c\
   nif\crc_resource.c
 
-all: app
+all: 
+	-@ if NOT EXIST "../priv" mkdir "../priv"
+	app
 
 Makefile.auto.win:
 	echo # Auto-generated as part of Makefile.win, do not modify. > $@
