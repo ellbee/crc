@@ -27,7 +27,7 @@ defmodule CRC.Mixfile do use Mix.Project
 
   defp deps() do
     [
-      {:elixir_make, "~> 0.4", runtime: false},
+      {:elixir_make, "~> 0.4"},
       {:ex_doc, "~> 0.18", only: :dev},
       {:propcheck, "~> 1.0", only: :test}
     ]
