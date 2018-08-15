@@ -4,9 +4,6 @@
 !INCLUDE Makefile.auto.win
 !ENDIF
 
-!IF [if not exist ..\priv mkdir ..\testdir]
-!ENDIF
-
 NMAKE = nmake /$(MAKEFLAGS)
 CFLAGS = /O2 /EHsc
 
