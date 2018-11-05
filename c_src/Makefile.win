@@ -4,7 +4,7 @@
 !INCLUDE Makefile.auto.win
 !ENDIF
 
-!IF [if not exist ..\priv mkdir ..\testdir]
+!IF [if not exist "..\priv" mkdir "..\priv"]
 !ENDIF
 
 NMAKE = nmake /$(MAKEFLAGS)
